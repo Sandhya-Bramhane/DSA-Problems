@@ -9,11 +9,6 @@ class Solution {
             return 1;
         }
         
-        int fnm1 = fib(n-1);
-        int fnm2 = fib(n-2);
-        
-        int fn = fnm1 + fnm2;
-        
-        return fn;
+        return fib(n-1) + fib(n-2);
     }
 }
